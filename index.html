@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SBI Online - Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- ✅ Removed invalid <img> tag from <head> -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f2f2f2;
+    }
+
+    header {
+      background: #002b6b;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 40px;
+    }
+
+    nav {
+      background: #003f8a;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 5px 15px;
+      font-weight: bold;
+    }
+
+    .main-container {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+    }
+
+    .section {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      width: 45%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-button {
+      display: block;
+      width: 100%;
+      background: #002b6b;
+      color: white;
+      padding: 12px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin: 20px 0;
+    }
+
+    .links {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      text-align: center;
+      font-size: 14px;
+      margin: 10px;
+      color: #444;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: red;
+      padding: 20px;
+      background: #fff;
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+    }
+
+    .dropdown {
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- ✅ Local SBI logo from public/sbi.png -->
+    <img src="/sbi.png" alt="SBI Logo" />
+    <div><strong>SBI ONLINE</strong></div>
+  </header>
+
+  <nav>
+    <!-- inside <nav> -->
+<head>
+  <title>Test</title>
+</head>
+<body>
+  <h1>Home Page</h1>
+  <a href="services.html">Go to Services</a>
+</body>
+    <a href="#">FAQ</a>
+    <a href="#">Corporate Website</a>
+    <a href="#">SB Collect</a>
+    <a href="#">Details</a>
+    <a href="#">mCash</a>
+    <a href="#">Apply for Account</a>
+    <a href="#">SBI Unipay</a>
+    <a href="#">SBI Loans</a>
+  </nav>
+
+  <marquee behavior="scroll" direction="left"
+    style="color: blue; padding: 10px; background-color: #fff; font-size: 14px;">
+    If slowness is observed during Login Page loading, please refresh the page. SBI never asks for confidential info like
+    PIN/OTP. Report fraud.
+  </marquee>
+
+  <div class="main-container">
+    <div class="section">
+      <h2>PERSONAL BANKING</h2>
+      <a href="#" class="login-button">LOGIN</a>
+      <div class="links">
+        <a href="#">New User Registration</a>
+        <a href="#">How Do I?</a>
+        <a href="#">Customer Care</a>
+        <a href="#">Lock & Unlock User</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>yono BUSINESS</h2>
+      <select class="dropdown">
+        <option value="yono">yono BUSINESS</option>
+        <option value="corporate">Corporate Banking</option>
+      </select>
+      <a href="#" class="login-button">LOGIN</a>
+      <div class="links">
+        <a href="#">New Corporate Registration</a>
+        <a href="#">How Do I?</a>
+        <a href="#">Customer Care</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Taxes using all Bank Debit/Credit Cards under State Bank Payment Gateway. | Mandatory Profile password change
+    after 365 days | Call us: 1800 1234 / 1800 2100
+    <br><br>
+    <a href="#">Register Complaint of Unauthorized Transaction</a> | <a href="#">RBI Retail Direct portal</a> |
+    <a href="#">Block ATM Card</a> | <a href="#">Banking Forms</a>
+  </footer>
+</body>
+
+</html>
